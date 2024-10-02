@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css'
 
 
@@ -7,6 +7,10 @@ function App (){
     city: '',
     country: '',
     temperature: ''
+  })
+
+  useEffect(()=> {
+    
   })
   return(
     <div className="App">
